@@ -8,13 +8,11 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "/.icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#0a0015"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundimage": "./icon.png",
         "backgroundColor": "#0a0015"
       },
       "package": "com.brightonjoseph.wave",
@@ -22,7 +20,8 @@
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.READ_MEDIA_AUDIO",
-        "android.permission.READ_MEDIA_VIDEO"
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.ACCESS_MEDIA_LOCATION"
       ]
     },
     "ios": {
@@ -38,6 +37,11 @@
           "isAccessMediaLocationEnabled": true
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bb72f33c-87d5-4b1a-8435-3f2226e61e85"
+      }
+    }
   }
 }
