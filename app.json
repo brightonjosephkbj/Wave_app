@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "WAVE",
+    "slug": "wave-app",
+    "owner": "brightonjoseph",
+    "version": "1.0.0",
+    "icon": "./icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "/.icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0015"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundimage": "./icon.png",
+        "backgroundColor": "#0a0015"
+      },
+      "package": "com.brightonjoseph.wave",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_MEDIA_VIDEO"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.brightonjoseph.wave"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow WAVE to save music and videos to your phone.",
+          "savePhotosPermission": "Allow WAVE to save music and videos to your phone.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ]
+  }
+}
